@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Dependecies
+
+For this challenge, I used some facilities to minimize efforts in some areas and speed up development.
+
+- `react-ace` and `ace-builds`
+  They were used for the entrance area. With these dependencies, it was possible to create a text editor so that the user can enter their data.
+
+- `react-chartjs-2` and `chart.js`
+  Used for plotting graphs. I chose these because chart.js is a great library for creating charts.
+
+- `material-ui/core`
+  Used for Material Design interface buttons;
+
+- `json5`
+  Used to parse the input stream into an object;
+
+- `react-splitter-layout`
+  Used for split panels between editor and chart
